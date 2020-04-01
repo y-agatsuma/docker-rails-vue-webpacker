@@ -3,19 +3,19 @@
  
 # 実行後の環境
 ```bash
-# ruby -v
+$ ruby -v
 ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
 
-# rails -v
+$ rails -v
 Rails 6.0.2.2
 
-# bundler -v
+$ bundler -v
 Bundler version 2.1.2
 
-# node -v
+$ node -v
 v10.15.2
 
-# yarn -v
+$ yarn -v
 1.22.4
 ```
 
