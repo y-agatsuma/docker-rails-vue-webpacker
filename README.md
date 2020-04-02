@@ -1,7 +1,10 @@
-# 前提
+# Rails_Docker_Vue.jsの環境構築用のshell
+Docker上にRuby on Railsとwebpacker+Vue.jsをコマンド一発でとりあえず確認したいときに使えるshellです。
+
+## 前提
  - docker / docker-compose をインストール済
  
-# 実行後の環境
+## 実行後の環境
 ```bash
 $ ruby -v
 ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
@@ -19,7 +22,7 @@ $ yarn -v
 1.22.4
 ```
 
-# 実行後のディレクトリ構成
+## 実行後のディレクトリ構成
 ```
 【app_name】
   ∟ Dockerfile
@@ -28,8 +31,8 @@ $ yarn -v
     ∟ [rails new で生成されたファイル群]
 ```
 
-# 使い方
-## 1. 任意のディレクトリを作成
+## 使い方
+### 1. 任意のディレクトリを作成
 
 ```bash
 ex.
@@ -37,12 +40,12 @@ $ mkdir sample_app
 $ cd sample_app
 ```
 
-## 2. shellを配置して実行
+### 2. shellを配置して実行
 ```bash
 $ bash docker-rails-vue.sh
 ```
 
-## 3. 起動確認して接続
+### 3. 起動確認して接続
 ```bash
 $ docker-compose ps
      Name                   Command             State                 Ports              
