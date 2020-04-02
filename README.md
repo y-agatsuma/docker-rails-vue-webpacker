@@ -1,4 +1,4 @@
-# Rails_Docker_Vue.jsの環境構築用のshell
+# Rails_Docker_Vue.jsの環境構築用shell
 Docker上にRuby on Railsとwebpacker+Vue.jsをコマンド一発でとりあえず確認したいときに使えるshellです。
 
 ## 前提
@@ -53,4 +53,4 @@ $ docker-compose ps
 sample_app_db_1    docker-entrypoint.sh mysqld   Up      0.0.0.0:3306->3306/tcp, 33060/tcp
 sample_app_web_1   rails s -p 3000 -b 0.0.0.0    Up      0.0.0.0:3000->3000/tcp
 ```
-http://localhost:3000/に接続
+http://localhost:3000/ に接続
